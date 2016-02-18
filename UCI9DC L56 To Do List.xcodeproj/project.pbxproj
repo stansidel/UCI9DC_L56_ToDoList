@@ -13,6 +13,7 @@
 		F61D06061C757C2200531365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61D06041C757C2200531365 /* Main.storyboard */; };
 		F61D06081C757C2300531365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61D06071C757C2300531365 /* Assets.xcassets */; };
 		F61D060B1C757C2300531365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61D06091C757C2300531365 /* LaunchScreen.storyboard */; };
+		F61D06131C757E1000531365 /* ToDoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61D06121C757E1000531365 /* ToDoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F61D06071C757C2300531365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61D060A1C757C2300531365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F61D060C1C757C2300531365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61D06121C757E1000531365 /* ToDoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F61D06071C757C2300531365 /* Assets.xcassets */,
 				F61D06091C757C2300531365 /* LaunchScreen.storyboard */,
 				F61D060C1C757C2300531365 /* Info.plist */,
+				F61D06121C757E1000531365 /* ToDoManager.swift */,
 			);
 			path = "UCI9DC L56 To Do List";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F61D06031C757C2200531365 /* SecondViewController.swift in Sources */,
+				F61D06131C757E1000531365 /* ToDoManager.swift in Sources */,
 				F61D05FF1C757C2200531365 /* AppDelegate.swift in Sources */,
 				F61D06011C757C2200531365 /* FirstViewController.swift in Sources */,
 			);
