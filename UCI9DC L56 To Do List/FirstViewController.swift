@@ -39,7 +39,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ToDoItem")!
+        let cell = tableView.dequeueReusableCellWithIdentifier("ToDoItem", forIndexPath: indexPath)
         
         if let name = toDoManager.itemAtIndex(indexPath.row) {
             cell.textLabel?.text = name
